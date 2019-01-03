@@ -1,0 +1,977 @@
+{
+  "formType": "sync",
+  "apiUrl": "save-user",
+  "formFileds": [
+    {
+      "id": "1",
+      "className": "CustomTextView",
+      "key": "TXTNAME",
+      "type": "CustomTextView",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "Enter Full Name"
+        }
+      ],
+      "label": "Enter Full Name",
+      "dependency": ""
+    },
+    {
+      "id": "2",
+      "className": "CustomEditText",
+      "key": "EDTNAME",
+      "type": "CustomEditText",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "Enter Name"
+        }
+      ],
+      "label": "",
+      "dependency": ""
+    },
+    {
+      "id": "3",
+      "className": "CustomTextView",
+      "key": "TXTFATNAME",
+      "type": "CustomTextView",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "Enter Father Name"
+        }
+      ],
+      "label": "Father Name",
+      "dependency": ""
+    },
+    {
+      "id": "4",
+      "className": "CustomEditText",
+      "key": "EDTFATNAME",
+      "type": "CustomEditText",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "Enter Father Name"
+        }
+      ],
+      "label": "",
+      "dependency": ""
+    },
+    {
+      "id": "5",
+      "className": "CustomTextView",
+      "key": "TXTMOTNAME",
+      "type": "CustomTextView",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "Enter Mother Name"
+        }
+      ],
+      "label": "Mother Name",
+      "dependency": ""
+    },
+    {
+      "id": "6",
+      "className": "CustomEditText",
+      "key": "EDTMOTNAME",
+      "type": "CustomEditText",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "Enter Mother Name"
+        }
+      ],
+      "label": "",
+      "dependency": ""
+    },
+    {
+      "id": "7",
+      "className": "CustomTextView",
+      "key": "TXTGENDER",
+      "type": "CustomTextView",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": ""
+        }
+      ],
+      "label": "Select Gender",
+      "dependency": ""
+    },
+    {
+      "id": "8",
+      "className": "CustomRadioGroup",
+      "key": "RADGENDER",
+      "type": "CustomRadioGroup",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "",
+          "options": [
+            {
+              "id": 1,
+              "value": "male"
+            },
+            {
+              "id": 2,
+              "value": "female"
+            }
+          ]
+        }
+      ],
+      "label": "",
+      "dependency": ""
+    },
+    {
+      "id": "9",
+      "className": "CustomTextView",
+      "key": "TXTDIST",
+      "type": "CustomTextView",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": ""
+        }
+      ],
+      "label": "Choose Districts",
+      "dependency": ""
+    },
+    {
+      "id": "10",
+      "className": "MultiSelectionCheckBoxDesigner",
+      "key": "CHKDIST",
+      "type": "MultiSelectionCheckBoxDesigner",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "",
+          "options": [
+            {
+              "id": 1,
+              "value": "Siddipet"
+            },
+            {
+              "id": 2,
+              "value": "Nalgonda"
+            },
+            {
+              "id": 3,
+              "value": "Hyderabad"
+            },
+            {
+              "id": 4,
+              "value": "Peddapalli"
+            }
+          ]
+        }
+      ],
+      "label": "",
+      "dependency": ""
+    },
+    {
+      "id": "11",
+      "className": "CustomTextView",
+      "key": "TXTSTATE",
+      "type": "CustomTextView",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": ""
+        }
+      ],
+      "label": "Select State",
+      "dependency": ""
+    },
+    {
+      "id": "12",
+      "className": "CustomSpinner",
+      "key": "SPISTATE",
+      "type": "CustomSpinner",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "",
+          "options": [
+            {
+              "id": 1,
+              "name": "Telangana"
+            },
+            {
+              "id": 2,
+              "name": "AndhraPradesh"
+            }
+          ]
+        }
+      ],
+      "label": "",
+      "dependency": ""
+    },
+    {
+      "id": "13",
+      "className": "CustomTextView",
+      "key": "TXTDISTRICT",
+      "type": "CustomTextView",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": ""
+        }
+      ],
+      "label": "Select District",
+      "dependency": ""
+    },
+    {
+      "id": "14",
+      "className": "CustomSpinner",
+      "key": "SPIDIST",
+      "type": "CustomSpinner",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "",
+          "options": [
+            {
+              "name": "Telangana",
+              "id": 1,
+              "value": [
+                {
+                  "id": 1,
+                  "name": "Adilabad"
+                },
+                {
+                  "id": 2,
+                  "name": "Khammam"
+                },
+                {
+                  "id": 3,
+                  "name": "Bhupalapally"
+                },
+                {
+                  "id": 4,
+                  "name": "Karimanagar"
+                },
+                {
+                  "id": 9,
+                  "name": "Nizamabad"
+                }
+              ]
+            },
+            {
+              "name": "AndhraPradesh",
+              "id": 2,
+              "value": [
+                {
+                  "id": 5,
+                  "name": "Nellore"
+                },
+                {
+                  "id": 6,
+                  "name": "Kadapa"
+                },
+                {
+                  "id": 7,
+                  "name": "Chittor"
+                },
+                {
+                  "id": 8,
+                  "name": "Vijayawada"
+                },
+                {
+                  "id": 10,
+                  "name": "Ananthapur"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "",
+      "dependency": "SPISTATE"
+    },
+    {
+      "id": "15",
+      "className": "CustomTextView",
+      "key": "TXTVILLAGE",
+      "type": "CustomTextView",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": ""
+        }
+      ],
+      "label": "Select Village",
+      "dependency": ""
+    },
+    /*{
+      "id": "16",
+      "className": "CustomSpinner",
+      "key": "SPIVILLAGE",
+      "type": "CustomSpinner",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "",
+          "options": [
+            {
+              "name": "Telangana",
+              "id": 1,
+              "value": [
+                {
+                  "id": 1,
+                  "name": "Godavarikhani"
+                },
+                {
+                  "id": 2,
+                  "name": "Mancherial"
+                },
+                {
+                  "id": 3,
+                  "name": "NTPC"
+                },
+                {
+                  "id": 4,
+                  "name": "Komarambheem"
+                }
+              ]
+            },
+            {
+              "name": "AndhraPradesh",
+              "id": 2,
+              "value": [
+                {
+                  "id": 5,
+                  "name": "Palasa"
+                },
+                {
+                  "id": 6,
+                  "name": "Guntur"
+                },
+                {
+                  "id": 7,
+                  "name": "Cheborole"
+                },
+                {
+                  "id": 8,
+                  "name": "Telnai"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "",
+      "dependency": "SPISTATE"
+    }*/
+    {
+      "id": "16",
+      "className": "CustomSpinner",
+      "key": "SPIVILLAGE",
+      "type": "CustomSpinner",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "placeHolder": "",
+          "options": [
+            {
+              "name": "Adilabad",
+              "id": 1,
+              "value": [
+                {
+                  "id": 1,
+                  "name": "Adilabad1"
+                },
+                {
+                  "id": 2,
+                  "name": "Adilabad2"
+                },
+                {
+                  "id": 3,
+                  "name": "Adilabad3"
+                },
+                {
+                  "id": 4,
+                  "name": "Adilabad4"
+                }
+              ]
+            },
+            {
+              "name": "Khammam",
+              "id": 2,
+              "value": [
+                {
+                  "id": 5,
+                  "name": "Khammam1"
+                },
+                {
+                  "id": 6,
+                  "name": "Khammam2"
+                },
+                {
+                  "id": 7,
+                  "name": "Khammam3"
+                },
+                {
+                  "id": 8,
+                  "name": "Khammam4"
+                }
+              ]
+            },
+            {
+              "name": "Bhupalpalli",
+              "id": 3,
+              "value": [
+                {
+                  "id": 9,
+                  "name": "Bhupalpalli1"
+                },
+                {
+                  "id": 10,
+                  "name": "Bhupalpalli2"
+                },
+                {
+                  "id": 11,
+                  "name": "Bhupalpalli3"
+                },
+                {
+                  "id": 12,
+                  "name": "Bhupalpalli4"
+                }
+              ]
+            },
+            {
+              "name": "Karimanagr",
+              "id": 4,
+              "value": [
+                {
+                  "id": 13,
+                  "name": "Karimanagr1"
+                },
+                {
+                  "id": 14,
+                  "name": "Karimanagr2"
+                },
+                {
+                  "id": 15,
+                  "name": "Karimanagr3"
+                },
+                {
+                  "id": 16,
+                  "name": "Karimanagr4"
+                }
+              ]
+            },
+            {
+              "name": "Nizamabad",
+              "id": 9,
+              "value": [
+                {
+                  "id": 17,
+                  "name": "Nizamabad1"
+                },
+                {
+                  "id": 18,
+                  "name": "Nizamabad2"
+                },
+                {
+                  "id": 19,
+                  "name": "Nizamabad3"
+                },
+                {
+                  "id": 20,
+                  "name": "Nizamabad4"
+                }
+              ]
+            },
+            {
+              "name": "Nellore",
+              "id": 5,
+              "value": [
+                {
+                  "id": 21,
+                  "name": "Nellore1"
+                },
+                {
+                  "id": 22,
+                  "name": "Nellore2"
+                },
+                {
+                  "id": 23,
+                  "name": "Nellore3"
+                },
+                {
+                  "id": 24,
+                  "name": "Nellore4"
+                }
+              ]
+            },
+            {
+              "name": "Kadapa",
+              "id": 6,
+              "value": [
+                {
+                  "id": 25,
+                  "name": "Kadapa1"
+                },
+                {
+                  "id": 26,
+                  "name": "Kadapa2"
+                },
+                {
+                  "id": 27,
+                  "name": "Kadapa3"
+                },
+                {
+                  "id": 28,
+                  "name": "Kadapa4"
+                }
+              ]
+            },
+            {
+              "name": "Chittor",
+              "id": 7,
+              "value": [
+                {
+                  "id": 29,
+                  "name": "Chittor1"
+                },
+                {
+                  "id": 30,
+                  "name": "Chittor2"
+                },
+                {
+                  "id": 31,
+                  "name": "Chittor3"
+                },
+                {
+                  "id": 32,
+                  "name": "Chittor4"
+                }
+              ]
+            },
+            {
+              "name": "Vijayawada",
+              "id": 8,
+              "value": [
+                {
+                  "id": 33,
+                  "name": "Vijayawada1"
+                },
+                {
+                  "id": 34,
+                  "name": "Vijayawada2"
+                },
+                {
+                  "id": 35,
+                  "name": "Vijayawada3"
+                },
+                {
+                  "id": 36,
+                  "name": "Vijayawada4"
+                }
+              ]
+            },
+            {
+              "name": "Ananthapur",
+              "id": 10,
+              "value": [
+                {
+                  "id": 37,
+                  "name": "Ananthapur1"
+                },
+                {
+                  "id": 38,
+                  "name": "Ananthapur2"
+                },
+                {
+                  "id": 39,
+                  "name": "Ananthapur3"
+                },
+                {
+                  "id": 40,
+                  "name": "Ananthapur4"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "",
+      "dependency": "SPIDIST"
+    }
+  ],
+  "listFields": [
+    {
+      "id": "100",
+      "className": "CustomListView",
+      "key": "LISTVIEWDATA",
+      "type": "CustomListView",
+      "uiAttributes": [
+        {
+          "width": 125,
+          "height": 50,
+          "color": "#000000"
+        }
+      ],
+      "dataAttributes": [
+        {
+          "detailedView": true,
+          "placeHolder": "Enter First Name",
+          "displayAttribute": {
+            "itemTemplate": [
+              {
+                "id": "101",
+                "className": "CustomTextView",
+                "key": "TXTFIRSTNAME",
+                "value": "firstName",
+                "type": "CustomTextView",
+                "uiAttributes": [
+                  {
+                    "width": 125,
+                    "height": 50,
+                    "color": "#000000"
+                  }
+                ],
+                "dataAttributes": [
+                  {
+                    "placeHolder": "Enter First Name",
+                    "name": "firstName"
+                  }
+                ],
+                "label": "",
+                "dependency": ""
+              },
+              {
+                "id": "102",
+                "className": "CustomTextView",
+                "key": "TXTLASTNAME",
+                "value": "lastName",
+                "type": "CustomTextView",
+                "uiAttributes": [
+                  {
+                    "width": 125,
+                    "height": 50,
+                    "color": "#000000"
+                  }
+                ],
+                "dataAttributes": [
+                  {
+                    "placeHolder": "Enter Last Name",
+                    "name": "lastName"
+                  }
+                ],
+                "label": "",
+                "dependency": ""
+              }
+            ]
+          },
+          "data": [
+            {
+              "firstName": "Santhosh",
+              "lastName": "Pittal"
+            },
+            {
+              "firstName": "Madhukar",
+              "lastName": "Siliveri"
+            },
+            {
+              "firstName": "Saleem",
+              "lastName": "Mohammad"
+            },
+            {
+              "firstName": "Gowtham",
+              "lastName": "Business"
+            }
+          ]
+        }
+      ],
+      "label": "",
+      "dependency": ""
+    }
+  ],
+  "detailedFields": [
+    {
+      "templateType": "horizontal",
+      "horizontalTemplate": [
+        {
+          "id": "201",
+          "className": "CustomTextView",
+          "key": "TXTEDTNAME",
+          "type": "CustomTextView",
+          "uiAttributes": [
+            {
+              "width": 125,
+              "height": 50,
+              "color": "#000000"
+            }
+          ],
+          "dataAttributes": [
+            {
+              "placeHolder": "FullName"
+            }
+          ],
+          "label": "FullName",
+          "dependency": ""
+        },
+        {
+          "id": "301",
+          "className": "CustomTextView",
+          "key": "TXTEDTSETNAME",
+          "type": "CustomTextView",
+          "uiAttributes": [
+            {
+              "width": 125,
+              "height": 50,
+              "color": "#000000"
+            }
+          ],
+          "dataAttributes": [
+            {
+              "placeHolder": "FullName"
+            }
+          ],
+          "label": "FullName",
+          "dependency": ""
+        }
+      ]
+    },
+    {
+      "templateType": "horizontal",
+      "horizontalTemplate": [
+        {
+          "id": "202",
+          "className": "CustomTextView",
+          "key": "TXTEDTFATHERNAME",
+          "type": "CustomTextView",
+          "uiAttributes": [
+            {
+              "width": 125,
+              "height": 50,
+              "color": "#000000"
+            }
+          ],
+          "dataAttributes": [
+            {
+              "placeHolder": "FatherName"
+            }
+          ],
+          "label": "FatherName",
+          "dependency": ""
+        },
+        {
+          "id": "302",
+          "className": "CustomTextView",
+          "key": "TXTEDTSETFATHERNAME",
+          "type": "CustomTextView",
+          "uiAttributes": [
+            {
+              "width": 125,
+              "height": 50,
+              "color": "#000000"
+            }
+          ],
+          "dataAttributes": [
+            {
+              "placeHolder": "FatherName"
+            }
+          ],
+          "label": "FatherName",
+          "dependency": ""
+        }
+      ]
+    },
+    {
+      "templateType": "horizontal",
+      "horizontalTemplate": [
+        {
+          "id": "203",
+          "className": "CustomTextView",
+          "key": "TXTEDTMOTHERNAME",
+          "type": "CustomTextView",
+          "uiAttributes": [
+            {
+              "width": 125,
+              "height": 50,
+              "color": "#000000"
+            }
+          ],
+          "dataAttributes": [
+            {
+              "placeHolder": "MotherName"
+            }
+          ],
+          "label": "MotherName",
+          "dependency": ""
+        },
+        {
+          "id": "303",
+          "className": "CustomTextView",
+          "key": "TXTEDTAGE",
+          "type": "CustomTextView",
+          "uiAttributes": [
+            {
+              "width": 125,
+              "height": 50,
+              "color": "#000000"
+            }
+          ],
+          "dataAttributes": [
+            {
+              "placeHolder": "Age"
+            }
+          ],
+          "label": "Age",
+          "dependency": ""
+        }
+      ]
+    },
+    {
+      "templateType": "vertical",
+      "horizontalTemplate": [
+        {
+          "id": "204",
+          "className": "CustomTextView",
+          "key": "TXTEDTWEIGHT",
+          "type": "CustomTextView",
+          "uiAttributes": [
+            {
+              "width": 125,
+              "height": 50,
+              "color": "#000000"
+            }
+          ],
+          "dataAttributes": [
+            {
+              "placeHolder": "Weight"
+            }
+          ],
+          "label": "Weight",
+          "dependency": ""
+        },
+        {
+          "id": "304",
+          "className": "CustomTextView",
+          "key": "TXTEDTSETWEIGHT",
+          "type": "CustomTextView",
+          "uiAttributes": [
+            {
+              "width": 125,
+              "height": 50,
+              "color": "#000000"
+            }
+          ],
+          "dataAttributes": [
+            {
+              "placeHolder": "Weight"
+            }
+          ],
+          "label": "Weight",
+          "dependency": ""
+        }
+      ]
+    }
+  ]
+}

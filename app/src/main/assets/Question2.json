@@ -1,0 +1,545 @@
+{
+  "EDTOK": [
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "height",
+      "value": "150",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "width",
+      "value": "150",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "color",
+      "value": "#cc00cc",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "textsize",
+      "value": "20",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "hint",
+      "value": "Enter Name",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "inputType",
+      "value": "text",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "drawableLeft",
+      "value": "/storage/emulated/0/Pictures/Screenshots/Screenshot_2018-08-27-17-54-13.png",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "drawablePadding",
+      "value": "10",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "background",
+      "value": "25",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "padding",
+      "value": "10",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomEditText",
+      "key": "EDTOK",
+      "language": "en",
+      "type": "gravity",
+      "value": "1",
+      "dependency":"null"
+    }
+
+  ],
+  /*"TXTSPNOK": [
+    {
+      "className": "CustomTextView",
+      "key": "TXTSPNOK",
+      "language": "en",
+      "type": "text",
+      "value": "Which District?"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTSPNOK",
+      "language": "en",
+      "type": "height",
+      "value": "50"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTSPNOK",
+      "language": "en",
+      "type": "width",
+      "value": "50"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTSPNOK",
+      "language": "en",
+      "type": "color",
+      "value": "#cc00cc"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTSPNOK",
+      "language": "en",
+      "type": "textsize",
+      "value": "25"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTSPNOK",
+      "language": "en",
+      "type": "drawableLeft",
+      "value": "/storage/emulated/0/Pictures/Screenshots/Screenshot_2018-09-12-17-11-55.png"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTSPNOK",
+      "language": "en",
+      "type": "drawablePadding",
+      "value": "10"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTSPNOK",
+      "language": "en",
+      "type": "padding",
+      "value": "10"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTSPNOK",
+      "language": "en",
+      "type": "gravity",
+      "value": "1"
+    }
+  ],
+  "SPNOK": [
+    {
+      "className": "CustomSpinner",
+      "key": "SPNOK",
+      "language": "en",
+      "type": "text",
+      "value": "Cities In India?"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNOK",
+      "language": "en",
+      "type": "options",
+      "value": "Karimnnagar,Siddipet,Peddapalli,Nellore"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNOK",
+      "language": "en",
+      "type": "padding",
+      "value": "10"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNOK",
+      "language": "en",
+      "type": "color",
+      "value": "#000000"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNOK",
+      "language": "en",
+      "type": "textsize",
+      "value": "25"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNOK",
+      "language": "en",
+      "type": "orientation",
+      "value": "horizontal"
+    }
+  ],*/
+  "SPNDEPSTATEOK": [
+    {
+      "className": "CustomSpinner",
+      "key": "SPNDEPSTATEOK",
+      "language": "en",
+      "type": "text",
+      "value": "",
+      "dependency":""
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNDEPSTATEOK",
+      "language": "en",
+      "type": "options",
+      "value": "Telangana,AndhraPradesh",
+      "dependency":""
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNDEPSTATEOK",
+      "language": "en",
+      "type": "padding",
+      "value": "10",
+      "dependency":""
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNDEPSTATEOK",
+      "language": "en",
+      "type": "color",
+      "value": "#000000",
+      "dependency":""
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNDEPSTATEOK",
+      "language": "en",
+      "type": "textsize",
+      "value": "25",
+      "dependency":""
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNDEPSTATEOK",
+      "language": "en",
+      "type": "orientation",
+      "value": "horizontal",
+      "dependency":""
+    }
+  ],
+  "SPNCITYOK": [
+    {
+      "className": "CustomSpinner",
+      "key": "SPNCITYOK",
+      "language": "en",
+      "type": "text",
+      "value": "",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNCITYOK",
+      "language": "en",
+      "type": "options",
+      "value": "Karinmnagar,Adilabad,Siddipet,Gajwel,Siricilla",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNCITYOK",
+      "language": "en",
+      "type": "padding",
+      "value": "10",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNCITYOK",
+      "language": "en",
+      "type": "color",
+      "value": "#000000",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNCITYOK",
+      "language": "en",
+      "type": "textsize",
+      "value": "25",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomSpinner",
+      "key": "SPNCITYOK",
+      "language": "en",
+      "type": "orientation",
+      "value": "horizontal",
+      "dependency":"null"
+    }
+
+  ],
+  "TXTRADOK": [
+    {
+      "className": "CustomTextView",
+      "key": "TXTRADOK",
+      "language": "en",
+      "type": "text",
+      "value": "Which one you selected?",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTRADOK",
+      "language": "en",
+      "type": "height",
+      "value": "50",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTRADOK",
+      "language": "en",
+      "type": "width",
+      "value": "50",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTRADOK",
+      "language": "en",
+      "type": "color",
+      "value": "#cc00cc",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTRADOK",
+      "language": "en",
+      "type": "textsize",
+      "value": "25",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTRADOK",
+      "language": "en",
+      "type": "drawableLeft",
+      "value": "/storage/emulated/0/Pictures/Screenshots/Screenshot_2018-09-12-17-11-55.png",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTRaADOK",
+      "language": "en",
+      "type": "drawablePadding",
+      "value": "10",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTRADOK",
+      "language": "en",
+      "type": "padding",
+      "value": "10",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTRADOK",
+      "language": "en",
+      "type": "gravity",
+      "value": "1",
+      "dependency":"null"
+    }
+  ],
+  "RADOK": [
+    {
+      "className": "CustomRadioGroup",
+      "key": "RADOK",
+      "language": "en",
+      "type": "text",
+      "value": "How old are you?",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomRadioGroup",
+      "key": "RADOK",
+      "language": "en",
+      "type": "options",
+      "value": "one,two,three,four",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomRadioGroup",
+      "key": "RADOK",
+      "language": "en",
+      "type": "padding",
+      "value": "10",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomRadioGroup",
+      "key": "RADOK",
+      "language": "en",
+      "type": "color",
+      "value": "#000000",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomRadioGroup",
+      "key": "RADOK",
+      "language": "en",
+      "type": "textsize",
+      "value": "20",
+      "dependency":"null"
+    }
+  ],
+  "TXTCHKOK": [
+    {
+      "className": "CustomTextView",
+      "key": "TXTCHKOK",
+      "language": "en",
+      "type": "text",
+      "value": "Which State?",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTCHKOK",
+      "language": "en",
+      "type": "height",
+      "value": "50",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTCHKOK",
+      "language": "en",
+      "type": "width",
+      "value": "50",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTCHKOK",
+      "language": "en",
+      "type": "color",
+      "value": "#cc00cc",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTCHKOK",
+      "language": "en",
+      "type": "textsize",
+      "value": "25",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTCHKOK",
+      "language": "en",
+      "type": "drawableLeft",
+      "value": "/storage/emulated/0/Pictures/Screenshots/Screenshot_2018-09-12-17-11-55.png",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTCHKOK",
+      "language": "en",
+      "type": "drawablePadding",
+      "value": "10",
+      "dependency":"null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTCHKOK",
+      "language": "en",
+      "type": "padding",
+      "value": "10",
+      "dependency": "null"
+    },
+    {
+      "className": "CustomTextView",
+      "key": "TXTCHKOK",
+      "language": "en",
+      "type": "gravity",
+      "value": "1",
+      "dependency":"null"
+    }
+
+  ],
+  "CHKOK": [
+    {
+      "className": "MultiSelectionCheckBoxDesigner",
+      "key": "CHKOK",
+      "language": "en",
+      "type": "text",
+      "value": "States In India?",
+      "dependency":"null"
+    },
+    {
+      "className": "MultiSelectionCheckBoxDesigner",
+      "key": "CHKOK",
+      "language": "en",
+      "type": "options",
+      "value": "Telangana,AP,Punjab,Gujrat",
+      "dependency":"null"
+    },
+    {
+      "className": "MultiSelectionCheckBoxDesigner",
+      "key": "CHKOK",
+      "language": "en",
+      "type": "padding",
+      "value": "10",
+      "dependency":"null"
+    },
+    {
+      "className": "MultiSelectionCheckBoxDesigner",
+      "key": "CHKOK",
+      "language": "en",
+      "type": "color",
+      "value": "#000000",
+      "dependency":"null"
+    },
+    {
+      "className": "MultiSelectionCheckBoxDesigner",
+      "key": "CHKOK",
+      "language": "en",
+      "type": "textsize",
+      "value": "20",
+      "dependency":"null"
+    },
+    {
+      "className": "MultiSelectionCheckBoxDesigner",
+      "key": "CHKOK",
+      "language": "en",
+      "type": "orientation",
+      "value": "horizontal",
+      "dependency":"null"
+    }
+
+  ]
+}

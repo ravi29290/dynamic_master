@@ -1,0 +1,42 @@
+[
+  {
+    "value": "Telangana",
+    "dependency": {
+      "questionId": 4,
+      "dependantValues": [
+        {
+          "value": "Hyderabad"
+        },
+        {
+          "value": "Siddipet"
+        },
+        {
+          "value": "Adilabad"
+        },
+        {
+          "value": "Nizamabad"
+        }
+      ]
+    }
+  },
+  {
+    "value": "AndhraPradesh",
+    "dependency": {
+      "questionId": 5,
+      "dependantValues": [
+        {
+          "value": "Nellore"
+        },
+        {
+          "value": "Ananthapur"
+        },
+        {
+          "value": "Thirupathi"
+        },
+        {
+          "value": "Srikakulam"
+        }
+      ]
+    }
+  }
+]
